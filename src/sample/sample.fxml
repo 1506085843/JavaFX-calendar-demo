@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="399.0" prefWidth="627.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button fx:id="id_1" layoutX="103.0" layoutY="120.0" mnemonicParsing="false" onAction="#buttonAction1" prefHeight="30.0" prefWidth="119.0" text="获取日历" textFill="#3a6f2e" />
+      <TextField fx:id="text_1" layoutX="102.0" layoutY="61.0" promptText="请输入年份，如：2021" />
+      <TextField fx:id="text_2" layoutX="380.0" layoutY="61.0" promptText="请输入月份，如：2" />
+      <Text layoutX="48.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" 年：" wrappingWidth="35.0" />
+      <Text layoutX="332.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" 月：" wrappingWidth="35.0" />
+      <TextArea fx:id="text_3" layoutX="167.0" layoutY="197.0" prefHeight="146.0" prefWidth="274.0" />
+   </children>
+</AnchorPane>
